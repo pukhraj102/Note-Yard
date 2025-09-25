@@ -3,7 +3,6 @@ import { formatDate } from "../lib/utils";
 import { PenSquareIcon, Trash2Icon } from "lucide-react";
 import api from "../lib/axios";
 import { toast } from "react-hot-toast";
-import { set } from "mongoose";
 
 const NoteCard = ({note, setNotes}) => {
     const handleDelete = async (e,id) => {
